@@ -1,0 +1,6 @@
+D:\Online library Management\Project1\Project1\Entity\bin\Debug\Entity.dll
+D:\Online library Management\Project1\Project1\Entity\bin\Debug\Entity.pdb
+D:\Online library Management\Project1\Project1\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+D:\Online library Management\Project1\Project1\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+D:\Online library Management\Project1\Project1\Entity\obj\Debug\Entity.dll
+D:\Online library Management\Project1\Project1\Entity\obj\Debug\Entity.pdb

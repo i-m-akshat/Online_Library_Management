@@ -1,0 +1,21 @@
+﻿
+.Link-color{
+    color:#ffffff;
+}
+
+.item-hover:hover{
+    color:#000000;
+}
+.mask{
+    width:2000px;
+    height:500px;
+    -webkit-mask-image:linear-gradient(black,transparent);
+    mask-image:linear-gradient(black,transparent);
+}
+.txt-center{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-shadow:5px;
+}

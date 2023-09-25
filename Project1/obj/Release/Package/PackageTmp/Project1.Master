@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Project1.master.cs" Inherits="Project1.Project1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Library Management</title>
+    <%-- bootstrap css --%>
+    <link href="Styling/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <%-- datatable--%>
+    <link href="Styling/assets/Datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--fontawesome--%>
+    <link href="Styling/assets/font-awesome/css/all.css" rel="stylesheet" />
+    <%--bootstrap-js--%>
+    <script src="Styling/assets/js/bootstrap.bundle.js"></script>
+    <%--Custom stylesheet--%>
+    <link href="CustomStyle.css" rel="stylesheet" />
+    <%--Animate Css--%>
+    <link href="Styling/assets/Animate/Animate.css" rel="stylesheet" />
+    <%--Dos animation on scroll--%>
+    <link href="Styling/assets/DOS%20animation%20on%20scroll/CSS/DOSstyle.css" rel="stylesheet" />
+    <script src="Styling/assets/DOS%20animation%20on%20scroll/JS/DOSScript.js"></script>
+    <%--Hover css--%>
+    <link href="Styling/assets/hover%20css/css/hover-min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+        <div>
+            <header>
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: linear-gradient(to right, #b867fa, #cb3ff9, #a108f3);">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="HomePage.aspx">
+                            <img src="Styling/assets/image/logo for weblib.png" width="60" height="60" />
+                            <b>Library Management</b>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="HomePage.aspx"><span class="item-hover">Home</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#"><span class="item-hover">About</span></a>
+                                </li>
+
+                                <li class="nav-item ">
+                                    <a class="nav-link active" aria-current="page" href="#"><span class="item-hover">Terms</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Books.aspx" role="button" aria-expanded="false">View Books</a>
+                                </li>
+                            </ul>
+                            <input class="form-control-sm" type="search" placeholder="Search" aria-label="Search" aria-expanded="false" />
+                            <button class="btn btn-outline-success btn-sm text-light" type="submit">Search</button>
+
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <asp:LinkButton CssClass="nav-link fa fa-sign-in-alt" ID="Link_2_Login" runat="server" OnClick="Link_2_Login_Click" Visible="true"><span class="item-hover Link-color">Login/Sign Up</span>
+                                    </asp:LinkButton>
+                                </li>
+
+                                <li class="nav-item">
+                                    <asp:LinkButton CssClass="nav-link fa fa-sign-out-alt" ID="Link_2_LogOut" runat="server" Visible="false" OnClick="Link_2_LogOut_Click"><span class="item-hover Link-color">Log Out</span>
+                                    </asp:LinkButton>
+                                </li>
+                                <li class="nav-item">
+                                    <asp:LinkButton CssClass="nav-link fa fa-user-alt" ID="Link2UserProfile" runat="server" Visible="false" OnClick="Link2UserProfile_Click"><span class="item-hover Link-color">Hello User</span></asp:LinkButton>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+
+        <!--Main content PlaceHolder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!--Main content PlaceHolder-->
+        <footer class="text-center text-lg-start text-white mt-auto" style="background: linear-gradient(to right, #b867fa, #cb3ff9, #a108f3)">
+            <%--Social Media Section--%>
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <%--Left--%>
+                <div class="me-start d-none d-lg-block">
+                    <span>Get connected with us on social networks: </span>
+                </div>
+                <%--Right--%>
+                <div>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#" role="button">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </section>
+
+            <%--section Links--%>
+            <section class="">
+                <div class="container text-center text-md-start mt-5 ">
+                    <%--Grid Row--%>
+                    <div class="row mt-3">
+
+                        <%--Grid Column--%>
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>About Us
+                            </h6>
+                            <p style="text-align: justify">
+                                The E Library is India's leading English Language Lending Library with over 1800 family and individual members. It is a non- profit organisation which is run entirely by volunteers as a service to the Indian community. The Library is located in the premises of the Indian Community Theatre and Arts Center in the Mall of the Ayodhya on g-24 Road in Ayodhya.
+                            </p>
+                        </div>
+                        <%--Grid Column--%>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <p>
+                                <asp:LinkButton CssClass="nav-link text-white" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true"><span class="item-hover">Admin Login</span></asp:LinkButton>
+                            </p>
+                            <p>
+                                <asp:LinkButton CssClass="nav-link text-white" ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="false"><span class="item-hover">Author Management</span></asp:LinkButton>
+                            </p>
+                            <p>
+                                <asp:LinkButton CssClass="nav-link text-white" ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="false"><span class="item-hover">Publisher Management</span></asp:LinkButton>
+                            </p>
+                            <p>
+                                <asp:LinkButton CssClass="nav-link text-white" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="false"><span class="item-hover">Book Inventory</span></asp:LinkButton>
+                            </p>
+                            <p>
+                                <asp:LinkButton CssClass="nav-link text-white" ID="LinkButton7" runat="server" OnClick="LinkButton7_Click" Visible="false"><span class="item-hover">Book Issuing</span></asp:LinkButton>
+                            </p>
+                            <p>
+                                <asp:LinkButton CssClass="nav-link text-white" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click" Visible="false"><span class="item-hover">Members Management</span></asp:LinkButton>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <%--Links--%>
+                            <p><a class="text-white" style="text-decoration: none" href="#"><span class="item-hover">About</span></a></p>
+                            <p><a class="text-white" style="text-decoration: none" href="#"><span class="item-hover">FAQ</span></a></p>
+                            <p><a class="text-white" style="text-decoration: none" href="#"><span class="item-hover">Feedback</span></a></p>
+                            <p><a class="text-white" style="text-decoration: none" href="#"><span class="item-hover">Help</span></a></p>
+                            <p><a class="text-white" style="text-decoration: none" href="#"><span class="item-hover">Mail us</span></a></p>
+                            <p><a class="text-white" style="text-decoration: none" href="UserProfilePage.aspx"><span class="item-hover">Settings</span></a></p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Contact
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i>Ayohya,Ay224001,India</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                akshatdwivedi59941@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i>+91 9519595778</p>
+                            <p><i class="fab fa-whatsapp me-3"></i>+91 9519595778</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </footer>
+    </form>
+    <script>
+        AOS.init({
+            delay: 250
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+

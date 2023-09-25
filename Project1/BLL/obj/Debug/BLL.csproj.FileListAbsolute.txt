@@ -1,0 +1,11 @@
+D:\Online library Management\Project1\Project1\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Online library Management\Project1\Project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Online library Management\Project1\Project1\BLL\bin\Debug\BLL.dll
+D:\Online library Management\Project1\Project1\BLL\bin\Debug\BLL.pdb
+D:\Online library Management\Project1\Project1\BLL\bin\Debug\DAL.dll
+D:\Online library Management\Project1\Project1\BLL\bin\Debug\Entity.dll
+D:\Online library Management\Project1\Project1\BLL\bin\Debug\DAL.pdb
+D:\Online library Management\Project1\Project1\BLL\bin\Debug\Entity.pdb
+D:\Online library Management\Project1\Project1\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Online library Management\Project1\Project1\BLL\obj\Debug\BLL.dll
+D:\Online library Management\Project1\Project1\BLL\obj\Debug\BLL.pdb
