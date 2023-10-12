@@ -51,6 +51,7 @@
 <br/>
 <br/>
 <br/>
+<h3>There are some validation mistakes in this project but i will fix them and upload them as soon as possible :)</h3>
 <h3>Some of the project's images are given below:</h3>
 
 ![image](https://github.com/Akshat4756/Online_Library_Management/assets/100028672/80515a79-3f67-4af8-8d0a-845b8a0acfd8)
