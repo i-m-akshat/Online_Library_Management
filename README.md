@@ -3,9 +3,9 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Akshat4756&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=i-m-akshat&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Akshat4756&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=i-m-akshat&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
 ###
@@ -54,18 +54,18 @@
 <h3>There are some validation mistakes in this project but i will fix them and upload them as soon as possible :)</h3>
 <h3>Some of the project's images are given below:</h3>
 
-![image](https://github.com/Akshat4756/Online_Library_Management/assets/100028672/80515a79-3f67-4af8-8d0a-845b8a0acfd8)
+![image](https://github.com/i-m-akshat/Online_Library_Management/assets/100028672/80515a79-3f67-4af8-8d0a-845b8a0acfd8)
 
-![image](https://github.com/Akshat4756/Online_Library_Management/assets/100028672/ed8cc402-a5bb-4a8c-a632-b69e093fac76)
+![image](https://github.com/i-m-akshat/Online_Library_Management/assets/100028672/ed8cc402-a5bb-4a8c-a632-b69e093fac76)
 
-![image](https://github.com/Akshat4756/Online_Library_Management/assets/100028672/ec1c50f3-d822-45b7-a09c-42dd5b28cbd7)
-![image](https://github.com/Akshat4756/Online_Library_Management/assets/100028672/32f0cb54-2749-4097-b081-a10ae43dd554)
+![image](https://github.com/i-m-akshat/Online_Library_Management/assets/100028672/ec1c50f3-d822-45b7-a09c-42dd5b28cbd7)
+![image](https://github.com/i-m-akshat/Online_Library_Management/assets/100028672/32f0cb54-2749-4097-b081-a10ae43dd554)
 
 
 ###
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Akshat4756/Akshat4756/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/i-m-akshat/i-m-akshat/output/snake.svg" alt="Snake animation" />
 
 ###
